@@ -30,6 +30,12 @@
     <ClCompile Include="split.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="border.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="border_main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="grade.h">
@@ -39,6 +45,12 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Student_info.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="split.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="border.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

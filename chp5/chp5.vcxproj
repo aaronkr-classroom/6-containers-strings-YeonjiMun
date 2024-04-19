@@ -131,13 +131,19 @@
     <ClCompile Include="..\..\5-data-containers-YeonjiMun\chp5\main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="border.cpp" />
+    <ClCompile Include="border_main.cpp" />
     <ClCompile Include="grade.cpp" />
     <ClCompile Include="median.cpp" />
-    <ClCompile Include="split.cpp" />
+    <ClCompile Include="split.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="border.h" />
     <ClInclude Include="grade.h" />
     <ClInclude Include="median.h" />
+    <ClInclude Include="split.h" />
     <ClInclude Include="Student_info.h" />
   </ItemGroup>
   <ItemGroup>
